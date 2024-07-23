@@ -1,0 +1,8 @@
+repos:
+- repo: local
+  hooks:
+  - id: pre-commit
+    name: Time Sync
+    type: script
+    entry: ./sync_timestamp.sh
+    language: system
